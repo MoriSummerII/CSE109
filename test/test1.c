@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include<string.h>
-
-int main(){
-  int x,y;
-  scanf("%d%d", &x, &y);
-  printf("x = %d\ny = %d\n", x ,y);
-  return 0;
-}
+#include <stdio.h> 
+int main() 
+{ 
+    int a; 
+    scanf("This is the value %d", &a); 
+    printf("Input value read : a = %d", a);
+    return 0; 
+} 
